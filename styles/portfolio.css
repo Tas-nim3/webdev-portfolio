@@ -146,8 +146,8 @@ main section{
 
     display:flex;
     gap:24px;
-    margin-left:300px;
-    margin-top: 130px;
+   margin: 0 auto;
+   max-width: 1140px;
     
 }
 .experience{
@@ -234,5 +234,7 @@ footer textarea{
     margin-bottom: 130px;
 }
 .footer-div2{
-    margin-right: 230px;
+    margin-right:0 auto;
+    max-width:600px;
+    text-align:center;
 }
