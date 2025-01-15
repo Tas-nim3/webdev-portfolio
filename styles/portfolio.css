@@ -238,3 +238,78 @@ footer textarea{
     max-width:600px;
     text-align:center;
 }
+
+
+/*Responsive portfolio*/
+
+.hide{
+
+    display:none;
+}
+
+    @media screen and (max-width: 576px) {
+       
+        .skills-container{
+            flex-direction: column;
+            margin: 20px;
+            align-items: center;
+        }
+        .section-des{
+            margin:20px;
+            text-align:center;
+
+        }
+       
+        .resume{
+            margin: 20px;
+        }
+        .resume-container{
+            flex-direction: column;
+           
+        }
+        .experience
+        {
+            width:100%;
+            height: fit-content;
+            
+        }
+        .experience-description br{
+            display: none;
+        }
+        .footer-main{
+            margin:20px;
+            padding: 10px;
+        }
+        .footer-div{
+            flex-direction: column;
+            margin:auto;
+            width: 75%;
+        }
+        .footer-para > br{
+            display: none;
+
+        
+        }
+        .footer-para{
+            width:80%;
+            display: inline;
+        }
+
+        footer input[type="text"]{
+            width:80%
+            
+        }
+        footer textarea{
+           width:80%;
+           
+       
+        }
+        .footer-div2{
+           
+            max-width:auto;
+            
+        }
+        .footer-head{
+            font-size:25px;
+        }
+    }
