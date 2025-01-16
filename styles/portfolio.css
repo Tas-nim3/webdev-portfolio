@@ -146,8 +146,9 @@ main section{
 
     display:flex;
     gap:24px;
-   margin: 0 auto;
+   margin: auto;
    max-width: 1140px;
+   text-align: center;
     
 }
 .experience{
@@ -333,6 +334,10 @@ footer textarea{
             flex-direction: column;
             margin:auto;
             width: 75%;
+
+            .footer-head{
+                margin-top:50px;
+            }
         }
         .footer-para > br{
             display: none;
