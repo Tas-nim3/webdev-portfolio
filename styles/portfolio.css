@@ -35,7 +35,7 @@ nav{
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 nav ul{
     display:flex;
@@ -190,8 +190,7 @@ main section{
     background-color:#FFF8F3 ;
 }
 .footer-div{
-    margin-left:230px;
-    
+   margin-left:100px;
     display: flex;
     gap: 117;
 }
@@ -248,7 +247,57 @@ footer textarea{
 }
 
     @media screen and (max-width: 576px) {
+
+
+        .header-media{
+            width: 100%;
+            margin: auto;
+        }
+        nav{
+           flex-direction: column;
+           margin: auto;
+        }
+        .nav-title{
+            font-weight: 800;
+            font-size: 35px;
+        }
+       .banner{
+        flex-direction:column;
+        width: auto;
+        margin-bottom: 40px;
+        margin-left: auto;
+       }
+       .banner-greetings{
+        font-size: 35px;
+       }
+       .banner-title{
+        font-size:50px;
+        
+       }
+       .pbanner-description{
+            width: fit-content;
+            margin: 0%;
+         
+       }
+       .banner-content{
+        width: auto;
+       }
+       .banner-profile-pic{
+        width: auto;
+        
+       }
+       .btn-primary{
+        margin:10px;
+        padding:5px;
+       }
+       .about{
+        padding: 20px;
+        margin-top: 20px;
+       }
        
+       .mar{
+        margin:auto;
+       }
         .skills-container{
             flex-direction: column;
             margin: 20px;
